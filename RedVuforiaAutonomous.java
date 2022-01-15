@@ -253,7 +253,7 @@ public class RedVuforiaAutonomous extends LinearOpMode
                 level1();
                 goForward(-2);
                 turnRight(80);
-                moveArm(100);
+                moveArm(120);
                 drive(d,d,.50);
                 //drive(d,d,.50);
                 //goForward(-20);
@@ -282,7 +282,7 @@ public class RedVuforiaAutonomous extends LinearOpMode
                 goForward(-2);
 
                 turnRight(80);
-                moveArm(100);
+                moveArm(120);
                 drive(d,d,.50);
                 break;
                 //level 3
@@ -304,6 +304,7 @@ public class RedVuforiaAutonomous extends LinearOpMode
 
                 level3();
                 turnRight(80);
+                moveArm(120);
                 drive(d,d,.50);
                 //drive(d,d,.50);
                 //goForward(-20);
