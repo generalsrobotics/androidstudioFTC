@@ -232,7 +232,7 @@ public class BlueVuforiaAutonomous extends LinearOpMode
                 goForward(12);
                 turnRight(90);
                 goForward(25);
-                duckMotor.setPower(-0.25);
+                duckMotor.setPower(-0.7);
                 sleep(3000);
                 goForward(-44);
                 turnLeft(95);
@@ -240,7 +240,7 @@ public class BlueVuforiaAutonomous extends LinearOpMode
                 level1();
 
                 turnLeft(90);
-                moveArm(100);
+                moveArm(120);
                 drive(d,d,.50);
                 //drive(d,d,.50);
                 //goForward(-20);
@@ -256,7 +256,7 @@ public class BlueVuforiaAutonomous extends LinearOpMode
                 goForward(12);
                 turnRight(90);
                 goForward(25);
-                duckMotor.setPower(-0.25);
+                duckMotor.setPower(-0.7);
                 sleep(3000);
                 goForward(-44);
                 turnLeft(95);
@@ -264,7 +264,7 @@ public class BlueVuforiaAutonomous extends LinearOpMode
                 level2();
 
                 turnLeft(90);
-                moveArm(100);
+                moveArm(120);
                 drive(d,d,.50);
                 break;
                 //level 3
@@ -273,7 +273,7 @@ public class BlueVuforiaAutonomous extends LinearOpMode
                 goForward(12);
                 turnRight(90);
                 goForward(25);
-                duckMotor.setPower(-0.25);
+                duckMotor.setPower(-0.7);
                 sleep(3000);
                 goForward(-44);
                 turnLeft(95);
@@ -281,7 +281,7 @@ public class BlueVuforiaAutonomous extends LinearOpMode
                 level3();
 
                 turnLeft(90);
-                moveArm(100);
+                moveArm(120);
                 drive(d,d,.50);
                 //drive(d,d,.50);
                 //goForward(-20);
